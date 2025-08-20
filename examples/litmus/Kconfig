@@ -3,11 +3,11 @@
 # see the file kconfig-language.txt in the NuttX tools repository.
 #
 
-config EXAMPLES_Litmus
-	tristate "\"Litmus nuttx !\" example"
+config EXAMPLES_LITMUS
+	tristate "\"Nuttx Litmus  !\" example"
 	default n
 	---help---
-		Enable the \"Litmus, Nuttx!\" example
+		Enable the \"Nuttx, Litmus!\" example
 
 if EXAMPLES_LITMUS
 
